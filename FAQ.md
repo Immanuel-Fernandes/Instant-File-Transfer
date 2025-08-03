@@ -18,13 +18,13 @@ Files are temporarily stored on the server’s local file system in the `/files`
 **Steps:**
 
 1. Go to the **Send File** tab.  
-   ![](./Step%20(1).png)
+   ![](Screenshots/Step%20(1).png)
 
 2. Select a file (max 200MB).  
-   ![](./Step%20(2).png)
+   ![](Screenshots/Step%20(2).png)
 
 3. Click **Upload**.  
-   ![](./Step%20(3).png)
+   ![](Screenshots/Step%20(3).png)
 
 4. A unique 6-character code is shown. Share this with the recipient.
 
@@ -33,13 +33,13 @@ Files are temporarily stored on the server’s local file system in the `/files`
 ## 4. 📥 How does the receiver download the file?
 
 1. Go to the **Receive File** tab.  
-   ![](./Step%20(4).png)
+   ![](Screenshots/Step%20(4).png)
 
 2. Enter the 6-character file code.  
-   ![](./Step%20(5).png)
+   ![](Screenshots/Step%20(5).png)
 
 3. If the file is found, click **Download File**.  
-   ![](./Step%20(5).png)
+   ![](Screenshots/Step%20(5).png)
 
 ---
 
@@ -47,8 +47,8 @@ Files are temporarily stored on the server’s local file system in the `/files`
 
 Navigate to the **Manage** tab and click **Clean Expired Files Now**.  
 If expired files are found, they will be deleted.  
-![](./Step%20(6).png)  
-![](./Step%20(7).png)
+![](Screenshots/Step%20(6).png)  
+![](Screenshots/Step%20(7).png)
 
 ---
 
