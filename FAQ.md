@@ -57,3 +57,16 @@ If expired files are found, they will be deleted.
 Files are accessed only with a random 6-character code. However, it is not encrypted end-to-end and should not be used for sensitive or confidential data.
 
 ---
+
+## 🧑‍💻 Developer
+
+**Developed By:** Immanuel Fernandes  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/immanuel-fernandes/)
+
+---
+
+## 🛡️ License
+
+This project is licensed under the MIT License.
+
+---
