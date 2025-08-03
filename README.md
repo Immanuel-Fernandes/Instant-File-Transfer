@@ -44,4 +44,4 @@ A lightweight, privacy-focused file sharing app built using **Streamlit**. Insta
 ├── file_db.json        # Temporary file metadata (name, type, timestamp)
 ├── files/              # Folder for temporarily stored files
 ├── LICENSE             # MIT License
-├── screenshot.png      # UI preview image (optional)
+├── Screenshot/    # UI preview image 
