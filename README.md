@@ -27,9 +27,6 @@ A lightweight, privacy-focused file sharing app built using **Streamlit**. Insta
 - 🧹 **Manual Cleanup**  
   Optional cleanup tab allows immediate deletion of expired files.
 
-- 🔒 **No Cloud, No User Data Tracking**  
-  Everything is local — no cloud storage, no accounts, no logs.
-
 ---
 
 ## ⚙️ Tech Stack
