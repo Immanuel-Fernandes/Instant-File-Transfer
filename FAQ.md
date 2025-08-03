@@ -54,14 +54,6 @@ If expired files are found, they will be deleted.
 
 ## 6. 🔐 Is this app secure?
 
-The app does not use user accounts or cloud storage. Files are accessed only with a random 6-character code. However, it is not encrypted end-to-end and should not be used for sensitive or confidential data.
+Files are accessed only with a random 6-character code. However, it is not encrypted end-to-end and should not be used for sensitive or confidential data.
 
 ---
-
-## 7. ⏱ Can I change the file expiry time?
-
-Yes.  
-In the code, modify this line in `app.py`:
-
-```python
-EXPIRY_SECONDS = 3600  # 1 hour
