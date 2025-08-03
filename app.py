@@ -86,7 +86,7 @@ def delete_expired_files():
 # --- Streamlit App ---
 
 st.set_page_config(page_title="Instant File Transfer", page_icon="📤", layout="centered")
-st.title("🌐 Instant File Transfer (No Storage)")
+st.title("🌐 Instant File Transfer")
 
 tab1, tab2, tab3 = st.tabs(["📎 Send File", "📥 Receive File", "🧹 Manage"])
 
@@ -126,4 +126,5 @@ with tab3:
             st.info("✅ No expired files found")
 
     st.caption("Files expire after 1 hour and will be removed.")
+
 
