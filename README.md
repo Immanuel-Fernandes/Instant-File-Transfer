@@ -1,42 +1,50 @@
-# 🌐 Instant File Transfer (No Storage)
+# 🌐 Instant File Transfer (Temporary, Private, No Persistent Storage)
 
-A lightweight, privacy-first file sharing web app built using **Streamlit**. Instantly upload and share files using a simple 6-character code. Files are stored temporarily and auto-deleted after 1 hour — no permanent storage, no login, no fuss.
+A lightweight, privacy-focused file sharing app built using **Streamlit**. Instantly upload a file and generate a 6-character download code. Files are stored **temporarily (for 1 hour)** on the server and are automatically deleted — ensuring a minimal footprint and enhanced privacy.
 
 🚀 **Live Demo:**  
 🔗 [https://instant-file-transfer.streamlit.app](https://instant-file-transfer.streamlit.app)
 
 ---
 
-## 🚀 Features
+## 📸 Preview
 
-- 📎 **Send Files Instantly**  
-  Upload any file and share a 6-character code to enable download.
-
-- 📥 **Download by Code**  
-  Enter a unique code to securely retrieve your file.
-
-- 🧹 **Auto-Expiry & Cleanup**  
-  Files automatically expire after **1 hour**. Manual cleanup supported for expired files.
-
-- 🛡 **Privacy Focused**  
-  No cloud storage or user tracking — everything stays local.
-
-- 🧩 **Modular Design**  
-  Cleanly separated logic for file handling, metadata, and UI.
+![Instant File Transfer Screenshot](screenshot.png)
 
 ---
 
-## 🔧 Tech Stack
+## ✅ Features
+
+- 📎 **Instant Upload**  
+  Upload any file and receive a unique 6-character code for sharing.
+
+- 📥 **Code-Based Download**  
+  Enter a file code to securely retrieve the file.
+
+- ⏳ **1-Hour Expiry**  
+  Files automatically expire and are removed after 1 hour.
+
+- 🧹 **Manual Cleanup**  
+  Optional cleanup tab allows immediate deletion of expired files.
+
+- 🔒 **No Cloud, No User Data Tracking**  
+  Everything is local — no cloud storage, no accounts, no logs.
+
+---
+
+## ⚙️ Tech Stack
 
 - **Frontend & Backend:** [Streamlit](https://streamlit.io/)
 - **Language:** Python
-- **Storage:** Local filesystem with JSON-based file database
+- **Storage:** Local filesystem (`files/` directory), metadata stored in `file_db.json`
 
 ---
 
 ## 📁 Project Structure
 
 ```plaintext
-├── app.py              # Main Streamlit app
-├── file_db.json        # Stores file metadata (name, type, timestamp)
-├── files/              # Directory to store uploaded files
+├── app.py              # Main Streamlit app logic
+├── file_db.json        # Temporary file metadata (name, type, timestamp)
+├── files/              # Folder for temporarily stored files
+├── LICENSE             # MIT License
+├── screenshot.png      # UI preview image (optional)
