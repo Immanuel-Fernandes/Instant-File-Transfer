@@ -9,7 +9,7 @@ A lightweight, privacy-focused file sharing app built using **Streamlit**. Insta
 
 ## 📸 Preview
 
-![Instant File Transfer Screenshot](screenshot.png)
+![Instant File Transfer Screenshot](Screenshots/Step%20(1).png)
 
 ---
 
